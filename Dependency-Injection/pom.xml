@@ -8,10 +8,10 @@
 		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>Demo-Project</artifactId>
+	<groupId>com.lavish</groupId>
+	<artifactId>Dependency-Injection</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Demo-Project</name>
+	<name>Dependency-Injection</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -40,12 +40,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>7.0.0-RC3</version>
-        </dependency>
 	</dependencies>
 
 	<build>
