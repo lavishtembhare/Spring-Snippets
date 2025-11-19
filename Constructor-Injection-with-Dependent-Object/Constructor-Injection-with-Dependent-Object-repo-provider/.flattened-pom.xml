@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.lavish.first</groupId>
+    <groupId>com.lavish</groupId>
     <artifactId>Constructor-Injection-with-Dependent-Object</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.lavish.first</groupId>
+  <groupId>com.lavish</groupId>
   <artifactId>Constructor-Injection-with-Dependent-Object-repo-provider</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <licenses>
@@ -43,7 +43,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>com.lavish.first.repo.RepoQuickstartApplication</mainClass>
+          <mainClass>cn.org.thinkcloud.quickstart.repo.RepoQuickstartApplication</mainClass>
         </configuration>
       </plugin>
     </plugins>
