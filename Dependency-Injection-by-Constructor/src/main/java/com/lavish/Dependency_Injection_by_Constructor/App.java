@@ -13,8 +13,8 @@ public class App
 {
     public static void main( String[] args )
     {
-    	BeanFactory bean=new ClassPathXmlApplicationContext("Spring.xml");
-    	Employee e=(Employee)bean.getBean("Employee");
+    	BeanFactory bean = new ClassPathXmlApplicationContext("applicationContext.xml");
+    	Employee e=(Employee)bean.getBean("emp");
         e.show();
     }
 }
